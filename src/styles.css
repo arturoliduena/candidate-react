@@ -1,0 +1,744 @@
+body {
+  background-color: #F2F2F0;
+}
+.container-banner {
+  /* background-image: url("./assets/homepage/group.jpg"); */
+  height: 806px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.logo-candidate {
+  display: flex;
+}
+.nav {
+  padding: 16px 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-nav {
+  display: flex;
+  width: 80%;
+  align-items: center;
+}
+
+.link-group {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  padding: 0px 10px;
+}
+
+.social-media-group{
+  display: flex;
+  padding: 0px 10px;
+}
+
+.logo-social-media {
+  padding: 0px 5px;
+}
+
+.nav-link {
+  color: #FFFFFF
+}
+
+.nav-pills .nav-link.active {
+  background-color: #F2541B
+}
+
+.hero {
+  margin: 135px 10%;
+}
+
+.a-fresh-new-voice-fo {
+  color: #FFFFFF;
+  font-family: Politica;
+  font-size: 55px;
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 55px;
+  text-transform: uppercase;
+}
+
+.elevator-pitch-lore {
+  color: #F2F2F0;
+  font-family: "Inter UI";
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.elevator-pitch-lore > p {
+  color: #F2F2F0;
+  font-family: "Inter UI";
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 146px;
+  height: 163px;
+}
+
+.container-donate {
+  display: flex;
+  width: 80%;
+  align-items: center;
+}
+
+.logo-donate {
+  padding: 0px 10px;
+}
+
+.donate {
+  color: #FFFFFF;
+  font-family: Politica;
+  font-size: 48px;
+  font-weight: 800;
+  letter-spacing: 0.86px;
+  line-height: 68px;
+  padding: 0px 10px;
+}
+
+.boxes-group {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  padding: 0px 10px;
+}
+
+.act-blue-buttons {
+  display: flex;
+  height: 60px;
+  width: 96px;
+  color: #FFFFFF;
+  font-family: Politica;
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  line-height: 25px;
+  text-align: center;
+  margin: 0px 5px;
+  background-color: #233A7A;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-up {
+  display: flex;
+  margin-top: 120px;
+  margin-right: 10%;
+  margin-bottom: 50px;
+  margin-left: 10%;
+  height: 300px;
+  width: 80%;
+  background-color: #233A7A;
+}
+
+.logo-hands {
+  display: flex;
+  align-self: flex-start;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 60px;
+}
+
+.team-up-info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding-top: 35px;
+}
+
+.team-up-with-canidat {
+  color: #F2F2F0;
+  font-family: Politica;
+  font-size: 48px;
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 52px;
+  text-transform: uppercase;
+}
+
+.lorem-ipsum-dolor-si {
+  color: #F2F2F0;
+  font-family: "Inter UI";
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 30px;
+  padding-top: 18px;
+}
+
+.form-team-up {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  padding-top: 35px;
+  padding-right: 60px;
+}
+
+.field-group-row {
+  display: flex;
+}
+
+.field-group-row > div:nth-child(1) {
+  width: 57%;
+  margin-right: 3%;
+}
+
+.field-group-row > div:nth-child(2) {
+  width: 40%;
+}
+
+.field {
+  display: flex;
+  flex-flow: column-reverse;
+  height: 60px;
+  background-color: white;
+  padding: 14px 18px;
+  margin-bottom: 16px;
+}
+
+label, input {
+  transition: all 0.2s;
+  touch-action: manipulation;
+  margin-bottom: 0;
+}
+
+input {
+  border: 0;
+  font-family: inherit;
+  -webkit-appearance: none;
+  border-radius: 0;
+  padding: 0;
+  cursor: text;
+}
+
+input:focus {
+  outline: 0;
+}
+
+input:placeholder-shown + label {
+  cursor: text;
+  max-width: 66.66%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  transform-origin: left bottom;
+  transform: translate(0, 25px) scale(1.5);
+}
+
+.field > ::-webkit-input-placeholder {
+  opacity: 0;
+  transition: inherit;
+}
+
+input:focus::-webkit-input-placeholder {
+  opacity: 1;
+}
+
+input:not(:placeholder-shown) + label,
+input:focus + label {
+  height: 10px;
+  width: 249.39px;
+  color: #F2541B;
+  font-family: "Inter UI";
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 10px;
+  transform: translate(0, 0) scale(1);
+  cursor: pointer;
+}
+
+.sign-up-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  height: 60px;
+  color: #FFFFFF;
+  font-family: Politica;
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  line-height: 25px;
+  text-align: center;
+  border: 2px solid #FFFFFF;
+}
+
+.mask {
+  display: flex;
+  height: 904px;
+  background-color: #233A7A;
+  background-image: url("./assets/homepage/photo.png");
+}
+
+.container-mask {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.title-container {
+  display: flex;
+  width: 100%;
+  margin-top: 70px;
+  margin-bottom: 25px;
+  flex-direction: column;
+  align-items: center;
+  color: #F2F2F0;
+}
+
+.title-header {
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 94px;
+  color: #F2F2F0;
+  font-family: Politica;
+  font-size: 56px;
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 79px;
+}
+
+.group-row {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+}
+
+.star-logo {
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+}
+
+.line {
+  display: flex;
+  flex: 1;
+  border-bottom: 1px solid #FFFFFF;
+}
+
+.issues {
+  width: 80%;
+  margin-top: 50px;
+}
+
+.issue-title {
+  width: 100%;
+  color: #F2F2F0;
+  font-family: Politica;
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+.issue-description {
+  width: 100%;
+  color: #FFFFFF;
+  font-family: "Inter UI";
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.row {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.get-to-know-the-enti {
+  height: 20px;
+  color: #FFFFFF;
+  font-family: Politica;
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 1.11px;
+  line-height: 28px;
+  text-align: right;
+  text-transform: uppercase;
+  margin-right: 10%;
+}
+
+.form-update {
+  display: flex;
+  width: 100%;
+  margin-top: 70px;
+  justify-content: center;
+}
+
+.sign-for-updates {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F2541B;
+  height: 60px;
+  width: 246px;
+  color: #FFFFFF;
+  font-family: Politica;
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+
+div.form-update > div.field {
+  margin-right: 2%;
+}
+
+.updates {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  padding: 10px;
+  width: 100%;
+}
+
+.update {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 392px;
+  width: 350px;
+}
+
+.title-update {
+  z-index: 1;
+  height: 16px;
+  width: 295.06px;
+  color: #FFFFFF;
+  font-family: "Inter UI";
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  line-height: 16px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.description-update {
+  z-index: 1;
+  height: 114px;
+  width: 295.06px;
+  color: #F2F2F0;
+  font-family: Politica;
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: 0.3px;
+  line-height: 38px;
+  margin-bottom: 40px;
+  margin-left: 30px;
+}
+
+.img-update {
+  position: absolute;
+}
+
+div.updates > div.update:nth-child(1), div.update:nth-child(3) {
+  background-color: #F2541B;
+}
+
+div.updates > div.update:nth-child(2), div.update:nth-child(4) {
+  background-color: #233A7A;
+}
+
+.form-event {
+  display: flex;
+  height: 60px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin: 26px 0px;
+}
+
+.input-text-event {
+  height: 60px;
+  width: 350px;
+  margin: 10px;
+}
+
+.button-find {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 180px;
+  color: #F2541B;
+  font-family: Politica;
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  line-height: 25px;
+  border: 2px solid #F2541B;
+  margin: 10px;
+}
+
+.input-text-event:placeholder-shown {
+  opacity: 0.87;
+  font-family: "Inter UI";
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 21px;
+}
+
+.events {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 197px;
+}
+
+.event {
+  display: flex;
+  height: 270px;
+  padding: 20px 10%;
+}
+
+.find-more-events {
+  height: 20px;
+  color: #F2541B;
+  font-family: Politica;
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 1.11px;
+  line-height: 28px;
+  text-align: right;
+  text-transform: uppercase;
+  margin-right: 10%;
+}
+
+.preview {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.img-event {
+  width: 262px;
+}
+
+.button-event {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 262px;
+  color: #FFFFFF;
+  font-family: Politica;
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  line-height: 25px;
+  background-color: #F2541B;
+}
+
+.event-info {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  flex-direction: column;
+  padding-left: 30px;
+}
+
+.event-title {
+  color: #233A7A;
+  font-family: Politica;
+  font-size: 42px;
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 59px;
+  text-transform: uppercase;
+}
+
+.event-date {
+  color: #181C26;
+  font-family: "Inter UI";
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.event-place {
+  color: #181C26;
+  font-family: "Inter UI";
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.event-detail {
+  max-width: 555px;
+  color: #181C26;
+  font-family: "Inter UI";
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 25px;
+}
+
+.juicer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.tab-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 82px;
+  width: 100%;
+  background-color: #091538;
+}
+
+.tab-element-normal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  width: 158px;
+  color: #F2F2F0;
+  background-color: #091538;
+  font-family: Politica;
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.tab-element-normal.active {
+  color: #122251;
+  background-color: #F2F2F0;
+}
+
+.post-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 79px 10%;
+}
+
+.post {
+  width: 360px;
+  background-color: #FFFFFF;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  padding: 0px 18px;
+  height: 56px;
+  width: 100%;
+}
+
+.oval {
+  height: 30px;
+  width: 30px;
+  border-radius: 30px;
+  background-color: #9E9E9E;
+  content: '';
+}
+
+.name-account {
+  flex: 1;
+  padding-left: 19px;
+  color: #000000;
+  font-family: "Inter UI";
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 15px;
+}
+
+.days {
+  color: #B2B2B2;
+  font-family: "Inter UI";
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 15px;
+}
+
+.img-post {
+  width: 100%;
+}
+
+.post-comment {
+  color: #1E2027;
+  font-family: "Inter UI";
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 26px;
+  padding: 20px;
+}
+
+.bitmap {
+  height: 44px;
+  width: 100%;
+}
+
+.footer {
+  display: flex;
+  align-items: flex-start;
+  height: 302px;
+  width: 100%;
+  background-color: #303030;
+  padding: 48px 10%;
+}
+
+.logo-vertical {
+  width: 150px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.about-text {
+  max-width: 585px;
+  color: #FFFFFF;
+  font-family: "Inter UI";
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.paid-for-by-candidat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 38px;
+  width: 322px;
+  color: #FFFFFF;
+  font-family: Politica;
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: 1.33px;
+  line-height: 23px;
+  border: 2px solid #F2F2F0;
+  text-transform: uppercase;
+}

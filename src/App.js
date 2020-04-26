@@ -1,25 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Fragment } from 'react';
+import './styles.css';
+import Nav from './components/nav';
+import Hero from './components/hero';
+import Donate from './components/donate';
+import TeamUp from './components/teamUp';
+import Mask from './components/mask';
+import Updates from './components/updates';
+import Events from './components/events';
+import Footer from './components/footer';
+import config from './config';
 
+const { nav, hero, donate, image } = config;
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+      <div class="container-fluid container-banner" style={{ backgroundImage: `url(${image})` }}>
+        <Nav config={nav}/>
+        <Hero config={hero}/>
+        <Donate config={donate}/>
+      </div>
+      <TeamUp />
+      <Mask />
+      <Updates />
+      <Events />
+      <Footer />
+    </Fragment>
   );
 }
 
